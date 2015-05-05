@@ -22,10 +22,6 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ONo-TB-cHn">
-                                    <rect key="frame" x="0.0" y="81" width="605" height="126"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                </imageView>
                                 <prototypes>
                                     <tableViewCell contentMode="redraw" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="chatCell" textLabel="idA-uW-R5j" detailTextLabel="X0d-nq-bXa" rowHeight="38" style="IBUITableViewCellStyleSubtitle" id="Bx5-nn-Cca">
                                         <autoresizingMask key="autoresizingMask"/>
