@@ -47,6 +47,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
 
     @IBAction func sendButtonPressed(sender: UIButton) {
         advertiseNewName(myTextField.text)
+        myTextField.resignFirstResponder()
 
     }
     
