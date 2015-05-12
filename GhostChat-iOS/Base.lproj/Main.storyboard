@@ -308,31 +308,18 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rules" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUB-y8-gwQ">
                                 <rect key="frame" x="145" y="20" width="310" height="54"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="42x-7Q-aAM"/>
-                                    <constraint firstAttribute="width" constant="310" id="RDt-vB-U0F"/>
+                                    <constraint firstAttribute="width" constant="310" id="WbB-mF-H8c"/>
+                                    <constraint firstAttribute="height" constant="54" id="jrV-yU-tn9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="22"/>
-                                <color key="textColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="17" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="k7F-hh-i2k">
-                                <rect key="frame" x="113" y="103" width="471" height="393"/>
-                                <string key="text">[1]  YOU DON’T TALK ABOUT THE APP
-[2]  YOU DON’T TALK ABOUT THE APP
-[3]  ONLY ONE FIGHT LOCATION POSTED A DAY
-[4]  ONLY TWO USERS TO A FIGHT
-[5]  THE FIGHTS GO ON AS LONG AS THEY HAVE TO
-[6]  IF YOU HAVE JUST DOWNLOADED THE APP, 
-        YOU HAVE TO FIGHT.</string>
-                                <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="16"/>
                                 <color key="textColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPj-1i-dFN">
                                 <rect key="frame" x="16" y="488" width="165" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="165" id="O2e-ey-ArA"/>
-                                    <constraint firstAttribute="height" constant="32" id="fVR-2K-9eb"/>
+                                    <constraint firstAttribute="height" constant="32" id="YdF-rz-3wP"/>
+                                    <constraint firstAttribute="width" constant="165" id="okX-Cu-Gda"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                 <state key="normal" title="NEW LOCATION">
@@ -346,7 +333,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irV-7O-Hw8">
                                 <rect key="frame" x="16" y="517" width="165" height="33"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="ZVh-Dw-MyT"/>
+                                    <constraint firstAttribute="height" constant="33" id="ZHe-zS-Uto"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                 <state key="normal" title="RECENT POSTS">
@@ -365,24 +352,37 @@
                                     <color key="titleShadowColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="17" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="k7F-hh-i2k">
+                                <rect key="frame" x="83" y="103" width="434" height="393"/>
+                                <string key="text">[1]  YOU DON’T TALK ABOUT THE APP
+[2]  YOU DON’T TALK ABOUT THE APP
+[3]  ONLY ONE FIGHT LOCATION POSTED A DAY
+[4]  ONLY TWO USERS TO A FIGHT
+[5]  THE FIGHTS GO ON AS LONG AS THEY HAVE TO
+[6]  IF YOU HAVE JUST DOWNLOADED THE APP, 
+        YOU HAVE TO FIGHT.</string>
+                                <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="14"/>
+                                <color key="textColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="k7F-hh-i2k" firstAttribute="trailing" secondItem="Deg-Lu-3IM" secondAttribute="trailingMargin" id="127-Nr-qrA"/>
-                            <constraint firstItem="vPj-1i-dFN" firstAttribute="trailing" secondItem="irV-7O-Hw8" secondAttribute="trailing" id="9qm-7Z-5qR"/>
-                            <constraint firstItem="fUB-y8-gwQ" firstAttribute="top" secondItem="zOs-2F-z4y" secondAttribute="bottom" id="Jpg-0h-2RR"/>
-                            <constraint firstItem="mI8-DU-tcc" firstAttribute="top" secondItem="vPj-1i-dFN" secondAttribute="bottom" constant="27" id="KNK-Xj-Zp7"/>
-                            <constraint firstItem="irV-7O-Hw8" firstAttribute="top" secondItem="k7F-hh-i2k" secondAttribute="bottom" constant="21" id="Sd9-OZ-uB6"/>
-                            <constraint firstAttribute="bottom" secondItem="mI8-DU-tcc" secondAttribute="bottom" constant="20" symbolic="YES" id="WvU-wZ-shP"/>
-                            <constraint firstItem="k7F-hh-i2k" firstAttribute="leading" secondItem="Deg-Lu-3IM" secondAttribute="leadingMargin" constant="97" id="a4v-2Z-z9d"/>
-                            <constraint firstItem="irV-7O-Hw8" firstAttribute="leading" secondItem="vPj-1i-dFN" secondAttribute="leading" id="eEn-EU-fye"/>
-                            <constraint firstItem="brE-DI-0tL" firstAttribute="top" secondItem="irV-7O-Hw8" secondAttribute="bottom" constant="50" id="mOM-DI-SXq"/>
-                            <constraint firstItem="fUB-y8-gwQ" firstAttribute="centerX" secondItem="Deg-Lu-3IM" secondAttribute="centerX" id="nX2-Km-kR6"/>
-                            <constraint firstItem="vPj-1i-dFN" firstAttribute="leading" secondItem="Deg-Lu-3IM" secondAttribute="leadingMargin" id="sRN-Cl-WXT"/>
-                            <constraint firstItem="irV-7O-Hw8" firstAttribute="leading" secondItem="mI8-DU-tcc" secondAttribute="leading" id="v0y-hv-35i"/>
-                            <constraint firstItem="k7F-hh-i2k" firstAttribute="top" secondItem="fUB-y8-gwQ" secondAttribute="bottom" constant="29" id="vyf-cZ-bA2"/>
-                            <constraint firstItem="mI8-DU-tcc" firstAttribute="trailing" secondItem="irV-7O-Hw8" secondAttribute="trailing" id="w7K-Pd-nhz"/>
+                            <constraint firstItem="brE-DI-0tL" firstAttribute="top" secondItem="irV-7O-Hw8" secondAttribute="bottom" constant="50" id="0bX-wn-l1G"/>
+                            <constraint firstItem="k7F-hh-i2k" firstAttribute="leading" secondItem="Deg-Lu-3IM" secondAttribute="leadingMargin" id="11j-6f-8yZ"/>
+                            <constraint firstItem="irV-7O-Hw8" firstAttribute="leading" secondItem="mI8-DU-tcc" secondAttribute="leading" id="1G9-mW-HOg"/>
+                            <constraint firstItem="mI8-DU-tcc" firstAttribute="trailing" secondItem="irV-7O-Hw8" secondAttribute="trailing" id="2dD-5Z-HUd"/>
+                            <constraint firstItem="fUB-y8-gwQ" firstAttribute="centerX" secondItem="k7F-hh-i2k" secondAttribute="centerX" id="7aB-gh-0Yg"/>
+                            <constraint firstAttribute="bottom" secondItem="mI8-DU-tcc" secondAttribute="bottom" constant="20" symbolic="YES" id="FyS-5N-Mo9"/>
+                            <constraint firstItem="mI8-DU-tcc" firstAttribute="top" secondItem="vPj-1i-dFN" secondAttribute="bottom" constant="27" id="HEm-xD-HOw"/>
+                            <constraint firstItem="k7F-hh-i2k" firstAttribute="top" secondItem="fUB-y8-gwQ" secondAttribute="bottom" constant="29" id="Iwv-zJ-gJ0"/>
+                            <constraint firstItem="irV-7O-Hw8" firstAttribute="top" secondItem="k7F-hh-i2k" secondAttribute="bottom" constant="21" id="OGj-OC-XWU"/>
+                            <constraint firstItem="k7F-hh-i2k" firstAttribute="centerX" secondItem="Deg-Lu-3IM" secondAttribute="centerX" id="Pze-s4-t5n"/>
+                            <constraint firstItem="irV-7O-Hw8" firstAttribute="trailing" secondItem="vPj-1i-dFN" secondAttribute="trailing" id="Tci-Cb-pEz"/>
+                            <constraint firstItem="mI8-DU-tcc" firstAttribute="leading" secondItem="Deg-Lu-3IM" secondAttribute="leadingMargin" id="VS7-jB-Xar"/>
+                            <constraint firstItem="vPj-1i-dFN" firstAttribute="leading" secondItem="irV-7O-Hw8" secondAttribute="leading" id="dEe-lj-pJC"/>
+                            <constraint firstItem="fUB-y8-gwQ" firstAttribute="top" secondItem="zOs-2F-z4y" secondAttribute="bottom" id="i7f-aa-Ctm"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -394,6 +394,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="DTD-j1-xcw"/>
         <segue reference="TpH-bo-F7b"/>
-        <segue reference="lO8-5B-xuF"/>
+        <segue reference="Kes-is-byU"/>
     </inferredMetricsTieBreakers>
 </document>
