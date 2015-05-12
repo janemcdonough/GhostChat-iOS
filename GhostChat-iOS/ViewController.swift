@@ -63,6 +63,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         advertiseNewName(myTextField.text)
         putPeripheralManagerIntoMainQueue()
         
+        
 
     }
 
@@ -77,6 +78,10 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
       //  statusText.text = passedString + "\r" + statusText.stringValue
     }
     
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return false
+    }
     
     
     func putPeripheralManagerIntoMainQueue(){
