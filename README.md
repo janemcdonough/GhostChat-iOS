@@ -5,7 +5,7 @@
 
 # Screen Shot
 PORTRAIT ORIENTATION
-![ScreenShot](https://github.com/samuraipapa/GhostChat-iOS/blob/master/screen.png) 
+
 ![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-portrait1.png) 
 ![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-portrait2.png) 
 ![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-portrait3.png) 
