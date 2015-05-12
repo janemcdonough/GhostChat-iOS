@@ -15,7 +15,7 @@ Hide Keyboard GIF
 
 Page Segues GIF
 
-![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/segue-views.gif) 
+![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/segue_views.gif) 
 
 # Screen Shot
 PORTRAIT ORIENTATION
