@@ -1,5 +1,5 @@
-## GhostChat-iOS
-1. Tagline: "Anon Local Chat" 
+## GhostChat-iOS-FightClub
+1. Tagline: "Anonymous Local Chat / Fight Club Application" 
 2. Works in Airplane Mode
 3. Does not use the Internet. Secure and off the Cloud.  
 
