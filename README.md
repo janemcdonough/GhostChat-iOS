@@ -4,7 +4,18 @@
 3. Does not use the Internet. Secure and off the Cloud.  
 
 # Screen Shot
+PORTRAIT ORIENTATION
 ![ScreenShot](https://github.com/samuraipapa/GhostChat-iOS/blob/master/screen.png) 
+![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-portrait1.png) 
+![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-portrait2.png) 
+![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-portrait3.png) 
+
+
+LANDSCAPE ORIENTATION
+![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-landscape1.png) 
+![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-landscape2.png) 
+![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/screen-landscape3.png) 
+
 
 # Code Runs On:
 + iOS 8.3+
