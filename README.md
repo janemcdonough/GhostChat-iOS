@@ -4,11 +4,17 @@
 3. Does not use the Internet. Secure and off the Cloud.  
 
 # GIFS
-APP ICON
+
+APP ICON GIF
+
 ![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/app_icon.gif) 
-Hide Keyboard
+
+Hide Keyboard GIF
+
 ![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/hidekeyboard.gif) 
-Page Segues
+
+Page Segues GIF
+
 ![ScreenShot](https://github.com/janemcdonough/GhostChat-iOS/blob/master/segue-views.gif) 
 
 # Screen Shot
